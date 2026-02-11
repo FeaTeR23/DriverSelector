@@ -1,0 +1,32 @@
+## .NET Core
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Bb]in/
+[Oo]bj/
+
+## Benchmark results
+BenchmarkDotNet.Artifacts/
+**/bin/Release/**/BenchmarkDotNet.Artifacts/
+
+## Visual Studio
+.vs/
+.vscode/
+*.swp
+*.sln.ide
+
+## NuGet Packages
+packages/
+*.nupkg
+
+## Project-specific
+**/appsettings.Development.json
+**/appsettings.Production.json
